@@ -206,4 +206,7 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+
+I have noticed while applying for a visa for a number of countries that their list of genders varies and some are not as inclusive as others. This is quite similar to what was described in the article in the case of Pakistan. Other than that no other data systems come to mind which I encounter on a day to day basis. 
+However, I think that the issue which was described in the article is not so much a problem of database design but rather a cultural issue (e.g. about  marriage, or immigration), which will need a lot of social restructuring to resolve. The databases and that they are relational in a particular way are mere symptoms of a certain social structure. That these structures evolve over time requires an understanding that might not be present in the minds of the designers. The technology could be advanced to a fascinating level, but if people are not willing to include such considerations in their design, not much will change. 
 ```
