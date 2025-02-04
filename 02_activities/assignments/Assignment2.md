@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+As indicated in the hint, there are two types of changing the records. Type 1 slowly changing dimensions will overwrite the current record, only keeping the most recent entry for the customer addresses. We can use this type if we don't care about the address history of our customers. Type 2 however will keep a record of old addresses of customers as well as the new ones. This type will need an extra column to keep track of when the address was updated, or which address is the most recent one and rank the rest based on recency. 
 ```
 
 ***
@@ -182,5 +182,7 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+The use of Artificial Intelligence has become prevalent at an exponential speed in the past decade and especially in the past few years. There are many arguments for its usefulness, for example in helping us humans save time and attend to what matters most, or increase our precision in tasks that we make a lot of mistakes in such as driving or some parts of medicine. However, as is often the case with new technological advancements, the relevant ethical questions and perhaps even important engineering questions are left for later, which results in people rightfully being alarmed by them. An example of such issues is with respect to training the models supporting many of the tasks, some of them even day-to-day tasks, that people use AI for. There is rarely any mention of how and where and at what (social and economic) cost these models were trained and are kept being trained and what are the possible biases that the training might have exposed the model to. 
+Something that was alluded to and I recently watched a documentary about is the data annotators from developing countries, who annotate training sets for pennies and the trauma some of them were experiencing for being exposed to often violent content. The other side of this that is more familiar to us is perhaps browsing on social media and seeing certain images having been marked as possibly harmful. There are an uncountable number of such issues unfortunately. Perhaps with tighter regulations companies might step in a more sustainable direction for growth and advancement of technologies.
+
 ```
